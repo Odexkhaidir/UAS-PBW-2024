@@ -1,0 +1,34 @@
+footer {
+    position: static;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Match bg-dark class */
+    color: white;
+    text-decoration: none;
+}
+@font-face{
+    font-family: 'Night in Tokyo';
+    src:
+      url('/night-in-tokyo/NightinTokyo-Bold.ttf') format('ttf')
+}
+body {
+    background-color: whitesmoke;
+}
+.form-control {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    border-color: maroon;
+}
+
+.card {
+    color: white;
+    background-color: maroon;
+    border-color: black;
+    border-width: 1px;
+}
+* {
+    font-family: "Lexend Deca", "Roboto Mono", "Vazirmatn", monospace;
+    /* font-family: Niveau Grotesk, Inter, ui-sans-serif; */
+    /* font-family: ov-gothic, HelveticaNeue-Bold, Helvetica Neue Bold, Helvetica Neue, arial, sans-serif;} */
+}
